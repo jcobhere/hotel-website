@@ -1,5 +1,3 @@
-$accentColor: #3d919d;
-
 * {
   margin: 0;
   padding: 0;
@@ -20,14 +18,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  p {
-    padding: 0px 280px;
-
-    #tel-no {
-      color: $accentColor;
-    }
-  }
+}
+#top-header p {
+  padding: 0px 280px;
+}
+#top-header p #tel-no {
+  color: #3d919d;
 }
 
 #bottom-header {
@@ -49,11 +45,10 @@ body {
   display: flex;
   justify-content: space-between;
   flex: 1.5;
-
-  button:not(.booknow-btn) {
-    background-color: transparent;
-    border: none;
-  }
+}
+#nav-buttons-container button:not(.booknow-btn) {
+  background-color: transparent;
+  border: none;
 }
 
 #logo,
@@ -63,8 +58,8 @@ body {
 
 .booknow-btn {
   border: none;
-  background-color: $accentColor;
+  background-color: #3d919d;
   color: white;
   height: 42px;
   width: 160px;
-}
+}/*# sourceMappingURL=styles.css.map */
