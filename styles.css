@@ -10,17 +10,20 @@ body {
   height: 100%;
 }
 
-#top-header {
+#top-header-container {
   width: 100%;
-  height: 34px;
   background-color: #1f2a26;
+  display: flex;
+  justify-content: center;
+}
+
+#top-header {
+  width: 70%;
+  height: 34px;
   color: #bebebe;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-#top-header p {
-  padding: 0px 280px;
 }
 #top-header p #tel-no {
   color: #3d919d;
