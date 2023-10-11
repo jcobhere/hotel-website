@@ -10,29 +10,41 @@ body {
   height: 100%;
 }
 
+header {
+  width: 100%;
+}
+
 #top-header-container {
   width: 100%;
+  height: 35px;
   background-color: #1f2a26;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-
-#top-header {
-  width: 70%;
-  height: 34px;
+#top-header-container #top-header {
+  width: 75%;
+  height: 100%;
   color: #bebebe;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#top-header p #tel-no {
+#top-header-container #top-header #tel-no {
   color: #3d919d;
 }
 
-#bottom-header {
+#bottom-header-container {
   width: 100%;
-  height: 95px;
-  border: 1px solid black;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bottom-header-container #bottom-header {
+  width: 75%;
+  height: 100%;
+  color: #1f2a26;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,29 +52,39 @@ body {
 
 #logo {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  flex: 1;
+  flex: 0.6;
+}
+#logo img {
+  height: 50px;
+  margin: 0px 20px 0px 0px;
 }
 
 #nav-buttons-container {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
-  flex: 1.5;
+  justify-content: end;
+  align-items: center;
 }
-#nav-buttons-container button:not(.booknow-btn) {
+#nav-buttons-container img {
+  height: 15px;
+  width: 15px;
+}
+#nav-buttons-container button {
   background-color: transparent;
   border: none;
+  color: #1f2a26;
+  margin: 30px;
+  font-size: 12pt;
+  flex-shrink: 1;
 }
-
-#logo,
-#nav-buttons-container {
-  padding: 0px 280px;
+#nav-buttons-container #home-btn {
+  color: #3d919d;
 }
-
-.booknow-btn {
-  border: none;
-  background-color: #3d919d;
+#nav-buttons-container #booknow-btn {
+  margin: 0px 0px 0px 10px;
+  padding: 10px 20px;
   color: white;
-  height: 42px;
-  width: 160px;
+  background-color: #3d919d;
 }/*# sourceMappingURL=styles.css.map */
