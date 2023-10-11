@@ -16,6 +16,8 @@ body {
 
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 #top-header-container {
@@ -27,7 +29,7 @@ header {
   align-items: center;
 
   #top-header {
-    width: 75%;
+    width: 70%;
     height: 100%;
     color: $fontColor;
     display: flex;
@@ -46,9 +48,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 
   #bottom-header {
-    width: 75%;
+    width: 70%;
     height: 100%;
     color: $fontColor2;
     display: flex;
@@ -76,8 +79,9 @@ header {
   align-items: center;
 
   img {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
   }
 
   button {
@@ -94,9 +98,19 @@ header {
   }
 
   #booknow-btn {
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 15px;
     padding: 10px 20px;
     color: white;
     background-color: $accentColor;
+  }
+}
+
+#background {
+  background-color: black;
+
+  img {
+    width: 100%;
+    opacity: 76;
+    z-index: 0;
   }
 }

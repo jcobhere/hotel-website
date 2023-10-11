@@ -12,6 +12,8 @@ body {
 
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 #top-header-container {
@@ -23,7 +25,7 @@ header {
   align-items: center;
 }
 #top-header-container #top-header {
-  width: 75%;
+  width: 70%;
   height: 100%;
   color: #bebebe;
   display: flex;
@@ -40,9 +42,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 #bottom-header-container #bottom-header {
-  width: 75%;
+  width: 70%;
   height: 100%;
   color: #1f2a26;
   display: flex;
@@ -68,8 +71,9 @@ header {
   align-items: center;
 }
 #nav-buttons-container img {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
+  margin-left: 30px;
 }
 #nav-buttons-container button {
   background-color: transparent;
@@ -83,8 +87,17 @@ header {
   color: #3d919d;
 }
 #nav-buttons-container #booknow-btn {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 15px;
   padding: 10px 20px;
   color: white;
   background-color: #3d919d;
+}
+
+#background {
+  background-color: black;
+}
+#background img {
+  width: 100%;
+  opacity: 76;
+  z-index: 0;
 }/*# sourceMappingURL=styles.css.map */
