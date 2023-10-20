@@ -39,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.65em;
 
     #tel-no {
       color: $accentColor;
@@ -206,10 +207,10 @@ header {
 }
 
 #rooms-page {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
 
